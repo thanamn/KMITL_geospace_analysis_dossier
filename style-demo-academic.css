@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,500;7..72,600;7..72,700&family=Public+Sans:wght@400;500;600;700&display=swap");
+
+:root {
+  --bg: #eef1f4;
+  --paper: #ffffff;
+  --ink: #20262d;
+  --muted: #616a74;
+  --line: #d2d9e0;
+  --accent: #33485c;
+  --accent-soft: #f2f5f7;
+  --summary-bg: #ffffff;
+  --table-head: #f4f7f9;
+  --visual-bg: #fafcfd;
+  --shadow: 0 10px 24px rgba(24, 33, 43, 0.07);
+
+  --font-body: "Literata", "Cambria", "Times New Roman", serif;
+  --font-ui: "Public Sans", "Aptos", "Segoe UI", sans-serif;
+  --font-display: "Public Sans", "Aptos", "Segoe UI", sans-serif;
+}
+
+body {
+  font-size: 15.4px;
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3 {
+  color: #223546;
+  letter-spacing: -0.018em;
+}
+
+h1 {
+  font-size: 1.92rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.18rem;
+  text-transform: none;
+}
+
+.meta {
+  gap: 14px;
+}
+
+.meta span {
+  padding: 0 0 4px;
+  border: none;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: transparent;
+}
+
+.summary {
+  border-left: none;
+  border-top: 2px solid rgba(51, 72, 92, 0.34);
+  background: #ffffff;
+}
+
+.report-page {
+  box-shadow: var(--shadow);
+}
+
+.takeaway {
+  font-family: var(--font-body);
+}

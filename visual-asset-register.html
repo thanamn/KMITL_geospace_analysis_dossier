@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visual Asset Register</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap");
+    :root {
+      --bg: #eef3f7;
+      --paper: #ffffff;
+      --ink: #1d2835;
+      --muted: #5b6978;
+      --line: #d7e0e8;
+      --accent: #124a71;
+      --soft: #f6f9fb;
+      --good: #235f3b;
+      --good-bg: #edf7f0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, #f2f5f8, #e7edf2);
+      color: var(--ink);
+      font: 15.5px/1.58 "Source Serif 4", "Iowan Old Style", serif;
+    }
+    main {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 28px 20px 42px;
+    }
+    .kicker {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font: 700 0.75rem/1.2 "IBM Plex Sans", sans-serif;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0 0 10px;
+      color: #12324d;
+      font: 700 2.1rem/1.06 "IBM Plex Sans", sans-serif;
+      letter-spacing: -0.02em;
+    }
+    .lead {
+      margin: 0;
+      max-width: 86ch;
+      color: var(--muted);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      margin: 24px 0 22px;
+    }
+    .card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      padding: 15px 16px;
+      box-shadow: 0 10px 24px rgba(20, 31, 44, 0.06);
+    }
+    .card h2 {
+      margin: 0 0 6px;
+      color: #173854;
+      font: 700 1rem/1.2 "IBM Plex Sans", sans-serif;
+    }
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      font-family: "IBM Plex Sans", sans-serif;
+      font-size: 0.92rem;
+      line-height: 1.52;
+    }
+    .panel {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      box-shadow: 0 12px 28px rgba(20, 31, 44, 0.06);
+      overflow: hidden;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: "IBM Plex Sans", sans-serif;
+      font-size: 0.88rem;
+      line-height: 1.46;
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: 9px 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+    thead th {
+      background: #f1f5f8;
+    }
+    tbody tr:nth-child(even) td {
+      background: #fbfcfd;
+    }
+    .note {
+      margin-top: 16px;
+      color: var(--muted);
+      max-width: 90ch;
+    }
+    a { color: var(--accent); }
+    @media (max-width: 1040px) {
+      .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+    @media (max-width: 720px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="kicker">Visual Register</p>
+    <h1>Built Visual Asset Register for the KMITL Space and Geospatial Engineering Dossier</h1>
+    <p class="lead">All 27 dossier visuals are now built as native SVG assets and integrated into the report. No user-supplied source files were required. The Bangkok-style map was built as a schematic city-layer illustration rather than a factual cadastral basemap.</p>
+    <section class="grid">
+      <article class="card"><h2>Total visuals</h2><p>27 built and integrated</p></article>
+      <article class="card"><h2>Need from you</h2><p>0 required to ship the current book</p></article>
+      <article class="card"><h2>Asset format</h2><p>SVG figures tuned for crisp A4 display and print use</p></article>
+      <article class="card"><h2>Current state</h2><p>Standalone chapters and master dossier now use finished figures instead of placeholder notes</p></article>
+    </section>
+    <section class="panel">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Chapter</th>
+            <th>Type</th>
+            <th>Status</th>
+            <th>Need From You?</th>
+            <th>Visual</th>
+            <th>Caption Summary</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>V-01</td><td>Chapter 1</td><td>Diagram</td><td>Built</td><td>No</td><td>From Rocket to Decision</td><td>Aerospace moves the delivery vehicle, space systems run the orbital machine, and geospatial engineering converts measurements into decisions.</td></tr><tr><td>V-02</td><td>Chapter 1</td><td>Workflow</td><td>Built</td><td>No</td><td>Flood Intelligence Pipeline</td><td>Satellite and UAV acquisition only create value when preprocessing, GIS overlay, modeling, and response action are connected in one chain.</td></tr><tr><td>V-03</td><td>Chapter 2</td><td>Capability matrix</td><td>Built</td><td>No</td><td>Global Capability Ladder</td><td>A qualitative capability matrix makes Thailand&#x27;s position legible without pretending to know exact budget numbers or unit economics.</td></tr><tr><td>V-04</td><td>Chapter 2</td><td>Diagram</td><td>Built</td><td>No</td><td>Thai Space Value Chain Thickness</td><td>The degree is safest where Thailand already has downstream services, telecom-ground work, and public mission support rather than narrow hardware manufacturing depth.</td></tr><tr><td>V-05</td><td>Chapter 3</td><td>Comparison chart</td><td>Built</td><td>No</td><td>Why GIS Is the Safety Net</td><td>The geospatial layer is the employability buffer because it usually offers broader employer count, faster time-to-value, and better fallback mobility than a pure hardware-first path.</td></tr><tr><td>V-06</td><td>Chapter 3</td><td>Workflow</td><td>Built</td><td>No</td><td>From Imagery to ESG Decision</td><td>GIS and remote sensing matter economically when they turn land or environmental evidence into a traceable business or compliance decision.</td></tr><tr><td>V-07</td><td>Chapter 3</td><td>Map</td><td>Built</td><td>No</td><td>Bangkok-Style Urban GIS Stack</td><td>This dossier build uses a schematic map to show how flood telemetry, PM2.5 hotspots, road structure, and conceptual telecom coverage can live in one urban GIS workflow.</td></tr><tr><td>V-08</td><td>Chapter 4</td><td>Decision tree</td><td>Built</td><td>No</td><td>Who Should Choose KMITL?</td><td>The degree makes sense only for a specific student profile, and this tree forces that choice through motive instead of vague prestige impressions.</td></tr><tr><td>V-09</td><td>Chapter 5</td><td>Workflow</td><td>Built</td><td>No</td><td>How Overload Becomes Delay</td><td>Chapter 5&#x27;s main risk is accumulation: missed milestones and administrative friction often create a longer graduation timeline before students realize how much has slipped.</td></tr><tr><td>V-10</td><td>Chapter 6</td><td>Diagram</td><td>Built</td><td>No</td><td>Years 1-2 Dependency Chain</td><td>The early curriculum is not a flat list of courses. It is a dependency chain that feeds the upper-year identity of the program.</td></tr><tr><td>V-11</td><td>Chapter 6</td><td>Dependency map</td><td>Built</td><td>No</td><td>Year 2 Mathematical Coupling</td><td>Linear algebra, differential equations, circuits, and OOP do not stay isolated. They compound directly into later signals, embedded, remote-sensing, and GIS-heavy coursework.</td></tr><tr><td>V-12</td><td>Chapter 7</td><td>Workflow</td><td>Built</td><td>No</td><td>Convert Year 3 into Employability</td><td>The highest-value upper-year sequence is classes to lab output to training to capstone or co-op to portfolio proof that employers can inspect.</td></tr><tr><td>V-13</td><td>Chapter 7</td><td>Decision tree</td><td>Built</td><td>No</td><td>Capstone or Co-op?</td><td>Capstone versus co-op should be a strategic decision tied to placement quality, conversion odds, and research ambition, not a status reflex.</td></tr><tr><td>V-14</td><td>Chapter 8</td><td>Diagram</td><td>Built</td><td>No</td><td>What the Hardware Path Really Means</td><td>In Thailand, the hardware path naturally includes RF, GNSS, teleport, ground systems, and testing work long before it reaches narrow spacecraft manufacturing roles.</td></tr><tr><td>V-15</td><td>Chapter 8</td><td>Qualitative matrix</td><td>Built</td><td>No</td><td>Hardware Workload Matrix</td><td>The demanding part of hardware work changes by sub-path: clean-room AIT, RF lab work, embedded benches, and teleport operations stress people differently.</td></tr><tr><td>V-16</td><td>Chapter 9</td><td>Workflow</td><td>Built</td><td>No</td><td>GIS Delivery Chain</td><td>The daily GIS or data role is not map-making in isolation. It is a workflow from messy input to trusted operational output.</td></tr><tr><td>V-17</td><td>Chapter 9</td><td>Diagram</td><td>Built</td><td>No</td><td>What Spatial AI Work Actually Looks Like</td><td>The visual turns vague AI language into a real processing pipeline with sources, rules or models, QA, and delivery surfaces.</td></tr><tr><td>V-18</td><td>Chapter 9</td><td>Timeline</td><td>Built</td><td>No</td><td>A Realistic GIS Analyst Day</td><td>A realistic GIS analyst day is structured around scripting, QA, syncs, reporting, and pipeline checks rather than romantic uninterrupted deep work.</td></tr><tr><td>V-19</td><td>Chapter 10</td><td>Diagram</td><td>Built</td><td>No</td><td>Degree-to-Job Translation Funnel</td><td>Thai employers hire for recognizable functions, so the degree has to be translated into skills, employer categories, role titles, and proof points.</td></tr><tr><td>V-20</td><td>Chapter 10</td><td>Ranked accessibility chart</td><td>Built</td><td>No</td><td>Entry-Level Accessibility by Path</td><td>The market is visibly thicker where implementation, consulting, and GIS-adjacent delivery are already normal employer needs, and thinner where pure space identity dominates.</td></tr><tr><td>V-21</td><td>Chapter 11</td><td>Diagram</td><td>Built</td><td>No</td><td>Two Career Ladders, Two Risk Profiles</td><td>Both ladders can pay off, but the GIS/data ladder tends to branch wider while the satcom/systems ladder stays narrower and more selective.</td></tr><tr><td>V-22</td><td>Chapter 12</td><td>Salary bands chart</td><td>Built</td><td>No</td><td>Indicative Salary Bands in Thailand</td><td>The strongest salary engine in this degree is the hybrid technical-specialist path, especially when GIS, data, systems, and delivery skills compound over time.</td></tr><tr><td>V-23</td><td>Chapter 12</td><td>Diagram</td><td>Built</td><td>No</td><td>International Pathways Funnel</td><td>Regional downstream work and master&#x27;s-first sequencing are much more realistic for most Thai students than a direct jump into the most controlled parts of U.S. aerospace.</td></tr><tr><td>V-24</td><td>Chapter 13</td><td>Market-depth chart</td><td>Built</td><td>No</td><td>Adjacent Labor-Market Depth</td><td>The degree becomes safer when it can translate into adjacent data, cloud, network, and telecom markets that visibly run deeper than the narrow specialized GIS pool.</td></tr><tr><td>V-25</td><td>Chapter 13</td><td>Workflow</td><td>Built</td><td>No</td><td>Choose a Pivot Lane</td><td>Pivot success comes from choosing a primary lane by work style, then building several months of coherent evidence inside it.</td></tr><tr><td>V-26</td><td>Chapter 14</td><td>Timeline</td><td>Built</td><td>No</td><td>Four-Year Playbook at a Glance</td><td>The four-year plan compounds only when each year leaves a durable proof asset that makes the next year easier.</td></tr><tr><td>V-27</td><td>Chapter 15</td><td>Decision matrix</td><td>Built</td><td>No</td><td>Go / No-Go Decision Matrix</td><td>The final verdict is conditional: this is a go for a portfolio-driven technical student and a no-go for someone hoping prestige or space romance will carry the decision.</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <p class="note"><a href="kmitl-space-geospatial-strategic-dossier.html">Open the master dossier</a></p>
+  </main>
+</body>
+</html>

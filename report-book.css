@@ -1,0 +1,393 @@
+body.master-book {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.58), rgba(255, 255, 255, 0)),
+    linear-gradient(180deg, #eef3f7, #e5ecf2 56%, #dfe7ee);
+}
+
+body.master-book .page-stack {
+  width: min(calc(100vw - 40px), var(--screen-page-width));
+}
+
+body.master-book .report-page__footer {
+  font-size: 0.74rem;
+  letter-spacing: 0.03em;
+}
+
+body.master-book .report-page:has(.cover-page) .report-page__footer,
+body.master-book .report-page:has(.title-page) .report-page__footer {
+  display: none;
+}
+
+body.master-book .report-page:has(.cover-page) .report-page__content,
+body.master-book .report-page:has(.title-page) .report-page__content {
+  padding-bottom: 18mm;
+}
+
+.front-kicker,
+.part-eyebrow,
+.cover-kicker,
+.toc-label {
+  margin: 0 0 8px;
+  color: var(--accent);
+  font-family: "IBM Plex Sans", "Aptos", "Segoe UI", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.cover-page,
+.title-page,
+.snapshot-page,
+.reading-guide,
+.contents-page,
+.part-divider {
+  min-height: 236mm;
+  display: flex;
+  flex-direction: column;
+}
+
+.cover-page {
+  justify-content: space-between;
+  position: relative;
+}
+
+.cover-page::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 6mm;
+  background: linear-gradient(90deg, #123f63, #2a678f 55%, #7aa4bf);
+}
+
+.cover-main {
+  padding-top: 14mm;
+}
+
+.cover-title {
+  margin: 0 0 14px;
+  color: #112f49;
+  font-size: 2.72rem;
+  line-height: 1.02;
+  max-width: 10.5cm;
+}
+
+.cover-subtitle {
+  margin: 0;
+  max-width: 12.8cm;
+  color: #4d5f70;
+  font-family: "IBM Plex Sans", "Aptos", "Segoe UI", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.cover-grid {
+  display: grid;
+  grid-template-columns: 1.45fr 1fr;
+  gap: 16px;
+  align-items: start;
+}
+
+.cover-panel {
+  align-self: end;
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, #f8fbfd, #f2f7fb);
+  padding: 16px 18px;
+}
+
+.cover-panel h2 {
+  margin: 0 0 10px;
+  padding-top: 0;
+  border-top: none;
+  font-size: 1rem;
+}
+
+.cover-panel ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.cover-panel li {
+  margin: 7px 0;
+  font-family: "IBM Plex Sans", "Aptos", "Segoe UI", sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.cover-band {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 12px;
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+  font-family: "IBM Plex Sans", "Aptos", "Segoe UI", sans-serif;
+  font-size: 0.82rem;
+  color: #516173;
+}
+
+.title-page h2,
+.snapshot-page h2,
+.reading-guide h2,
+.contents-page h2,
+.part-divider h2 {
+  margin: 0 0 14px;
+  padding-top: 0;
+  border-top: none;
+}
+
+.title-page h2 {
+  font-size: 1.9rem;
+}
+
+.front-lead {
+  max-width: 80ch;
+  color: #344659;
+}
+
+.brief-grid,
+.guide-grid,
+.snapshot-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.brief-grid,
+.guide-grid {
+  grid-template-columns: 1.15fr 0.85fr;
+}
+
+.snapshot-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 8px;
+}
+
+.brief-card,
+.guide-card,
+.snapshot-card {
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, #fbfdff, #f6f9fb);
+  padding: 14px 15px;
+}
+
+.brief-card h3,
+.guide-card h3,
+.snapshot-card h3 {
+  margin: 0 0 8px;
+  color: #173854;
+}
+
+.brief-card p,
+.guide-card p,
+.snapshot-card p,
+.brief-card li,
+.guide-card li {
+  font-family: "IBM Plex Sans", "Aptos", "Segoe UI", sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.56;
+}
+
+.guide-card ul {
+  margin: 8px 0 0 18px;
+}
+
+.contents-page {
+  justify-content: flex-start;
+}
+
+.contents-page .front-lead {
+  margin-bottom: 18px;
+}
+
+.contents-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.toc-section {
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+
+.toc-frontmatter {
+  margin-bottom: 8px;
+}
+
+.toc-part-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+  font-family: "IBM Plex Sans", "Aptos", "Segoe UI", sans-serif;
+}
+
+.toc-part-head strong {
+  color: #14324c;
+}
+
+.toc-part-head span:last-child,
+.toc-page-number {
+  font-variant-numeric: tabular-nums;
+}
+
+.toc-table {
+  margin: 0;
+  font-size: 0.84rem;
+}
+
+.toc-table td,
+.toc-table th {
+  padding: 7px 9px;
+}
+
+.toc-table td:last-child,
+.toc-table th:last-child {
+  width: 54px;
+  text-align: right;
+}
+
+.toc-table td:first-child {
+  color: #233240;
+}
+
+.part-divider {
+  justify-content: center;
+  text-align: center;
+  border-top: 6mm solid #123f63;
+}
+
+.part-divider h2 {
+  margin: 0 0 10px;
+  color: #12324d;
+  font-size: 2.06rem;
+}
+
+.part-range {
+  margin: 0 0 16px;
+  color: #587081;
+  font-family: "IBM Plex Sans", "Aptos", "Segoe UI", sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.part-summary {
+  max-width: 70ch;
+  margin: 0 auto;
+  color: #425365;
+  font-family: "IBM Plex Sans", "Aptos", "Segoe UI", sans-serif;
+}
+
+.master-book .chapter-open {
+  padding-top: 2mm;
+}
+
+.master-book .chapter-open .meta {
+  margin-bottom: 26px;
+}
+
+.master-book .sources ul {
+  padding-left: 20px;
+}
+
+.planned-visual {
+  border: 1px solid #d8e0e8;
+  border-left: 4px solid #7fa1bc;
+  background: linear-gradient(180deg, #fbfdff, #f5f8fb);
+  padding: 11px 13px;
+  margin: 16px 0;
+}
+
+.planned-visual__eyebrow {
+  margin: 0 0 6px;
+  color: var(--accent);
+  font-family: "IBM Plex Sans", "Aptos", "Segoe UI", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.planned-visual__body {
+  margin: 0;
+  color: #4f6172;
+  font-family: "IBM Plex Sans", "Aptos", "Segoe UI", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.visual-plan-summary {
+  min-height: 236mm;
+  display: flex;
+  flex-direction: column;
+}
+
+.visual-plan-summary h2 {
+  margin: 0 0 14px;
+  padding-top: 0;
+  border-top: none;
+}
+
+.visual-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin: 10px 0 18px;
+}
+
+.visual-summary-card {
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, #fbfdff, #f6f9fb);
+  padding: 14px 15px;
+}
+
+.visual-summary-card h3 {
+  margin: 0 0 6px;
+  color: #173854;
+}
+
+.visual-summary-card p {
+  margin: 0;
+  font-family: "IBM Plex Sans", "Aptos", "Segoe UI", sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.visual-summary-note {
+  max-width: 78ch;
+}
+
+.visual-summary-note a {
+  color: var(--accent);
+}
+
+@media screen and (max-width: 900px) {
+  .cover-grid,
+  .brief-grid,
+  .guide-grid,
+  .snapshot-grid,
+  .visual-summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cover-title {
+    max-width: none;
+    font-size: 2.2rem;
+  }
+
+  .cover-subtitle,
+  .front-lead,
+  .part-summary {
+    max-width: none;
+  }
+}
+
+@media print {
+  body.master-book {
+    background: #ffffff;
+  }
+
+  body.master-book .report-page:has(.cover-page) .report-page__footer,
+  body.master-book .report-page:has(.title-page) .report-page__footer {
+    display: none;
+  }
+}

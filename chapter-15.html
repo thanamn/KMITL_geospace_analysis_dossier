@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chapter 15 - Final Verdict</title>
+  <style>
+    @page { size: A4; margin: 16mm; }
+    :root {
+      --bg: #f4f1ea;
+      --paper: #fffdf8;
+      --ink: #1c2430;
+      --muted: #53606e;
+      --line: #c8c3b8;
+      --accent: #0e4b75;
+      --accent-soft: #d7e9f5;
+      --warn: #7d3414;
+      --warn-soft: #fae7de;
+      --decision: #355c33;
+      --decision-soft: #e4f0df;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.62;
+    }
+    main {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 28px 22px 60px;
+    }
+    article {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      padding: 42px 48px;
+      box-shadow: 0 8px 28px rgba(23, 32, 41, 0.07);
+    }
+    h1, h2, h3 {
+      color: #16202a;
+      line-height: 1.25;
+      page-break-after: avoid;
+    }
+    h1 { font-size: 2.1rem; margin: 0 0 8px; }
+    h2 {
+      font-size: 1.35rem;
+      margin: 34px 0 10px;
+      padding-top: 4px;
+      border-top: 1px solid var(--line);
+    }
+    h3 { font-size: 1.08rem; margin: 22px 0 8px; }
+    p { margin: 10px 0; text-align: justify; }
+    .deck { margin: 0 0 24px; color: var(--muted); font-size: 1rem; }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0 0 24px;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+    .summary {
+      border: 1px solid var(--line);
+      background: #fbf8f1;
+      padding: 18px 20px;
+      margin: 16px 0 26px;
+    }
+    .note { font-size: 0.95rem; color: var(--muted); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 20px;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: 10px 12px;
+      vertical-align: top;
+    }
+    th { background: #ece8df; text-align: left; }
+    ul { margin: 10px 0 16px 22px; }
+    li { margin: 5px 0; }
+    .visual {
+      border: 1px dashed #8f98a0;
+      background: #f7f9fb;
+      padding: 12px 14px;
+      margin: 16px 0;
+      white-space: pre-line;
+      font-size: 0.95rem;
+    }
+    .sources a { color: var(--accent); }
+    .takeaway {
+      border-top: 2px solid #16202a;
+      margin-top: 30px;
+      padding-top: 16px;
+      font-weight: bold;
+    }
+    @media print {
+      body { background: #ffffff; }
+      main { max-width: none; padding: 0; }
+      article { border: none; box-shadow: none; padding: 0; }
+    }
+  </style>
+  <link rel="stylesheet" href="report-shared.css?v=7">
+</head>
+<body>
+  <main>
+    <article class="chapter-source">
+      <header>
+        <h1>Chapter 15: Final Verdict</h1>
+        <p class="deck">The student does not need one more neutral summary. They need a decision. This final chapter pulls together the market reality, the academic risk, the living situation in Lat Krabang, the mental-health load, and the actual upside of the degree, then turns all of that into a blunt go or no-go framework.</p>
+        <div class="meta">
+          <span>Part 6: Safety Net &amp; Action Plan</span>
+          <span>Format: HTML chapter output</span>
+          <span>Decision focus: student life, mental health, Lat Krabang reality, and final go or no-go</span>
+        </div>
+      </header>
+
+      <section class="summary">
+        <h2>Executive Summary</h2>
+        <p>The final verdict on KMITL's Bachelor of Engineering in Space and Geospatial Engineering is neither a clean endorsement nor a rejection. It is a conditional yes. The degree is worth choosing for a specific kind of student: someone who can handle an engineering curriculum, accepts that the labor-market payoff will come more from GIS, data, systems, and telecom-adjacent work than from glamorous spacecraft fantasy, and is willing to build a portfolio aggressively. For that student, the degree has enough technical depth and enough pivot routes to become a strong platform. For the wrong student, it can become an exhausting, ambiguous major with a niche title and weak conversion.</p>
+        <p>The living environment reinforces that conditional judgment. KMITL is in Lat Krabang, roughly 30 kilometers east of central Bangkok, and the area feels more airport-edge, commuter, and practical than classic city-campus romantic. This can actually be an advantage if the student wants a more cost-manageable base: current official dormitory fees range from very low non-air-conditioned rooms to substantially higher modern air-conditioned blocks, while recent off-campus listings near KMITL show budget apartments around 4,500-7,500 THB per month and condos commonly around 7,500-15,000 THB. The tradeoff is obvious. Lat Krabang is workable and often cheaper than central-city student life, but it is not the right fit for students whose ideal university experience depends on dense urban social energy.</p>
+        <p>The hardest part of the decision is psychological, not only academic. The coursework is demanding, the degree identity requires translation, and the student must be proactive. KMITL does have support systems: the Office of Student Development and Alumni currently advertises one-on-one counseling, both onsite and online, with 45-minute appointments and a Mind Room in the Rector's Building. That is a real positive. But support availability does not erase the structural burden of a challenging engineering program. The final conclusion is therefore blunt: go if the student is technically motivated, self-directed, and realistic about outcomes; no-go if the main driver is prestige, vague love of space, or hope that the degree will explain itself to the job market.</p>
+      </section>
+
+      <section>
+        <h2>1. The Final Decision Standard</h2>
+        <p>A university choice should survive five tests at once. The program should be academically survivable, economically defensible, psychologically tolerable, geographically workable, and strategically flexible. KMITL SGE passes those tests only with conditions.</p>
+
+        <h3>Academic survivability</h3>
+        <p>The degree is real engineering. That means calculus, physics, circuits, signals, electromagnetics, programming, and later systems or geospatial layers. Students who are weak in math or who dislike sustained technical work are not buying a romantic science-communication degree. They are buying pressure.</p>
+
+        <h3>Economic defensibility</h3>
+        <p>The degree is economically viable because it can map into multiple markets: GIS, remote sensing, data, telecom, satcom support, cloud, and systems. It is not economically viable because Thailand suddenly has a giant pure-space hiring base. That distinction is the entire story.</p>
+
+        <h3>Psychological tolerability</h3>
+        <p>The degree is psychologically tolerable only for students who accept ambiguity and delayed payoff. A mainstream program with obvious employer mapping may be emotionally easier. This program asks the student to do some of that translation work themselves.</p>
+
+        <h3>Geographic workability</h3>
+        <p>Lat Krabang is workable if the student accepts the campus-life tradeoff. It is not central Bangkok. That affects commute, lifestyle, and how often the student can or wants to participate in city-based opportunities.</p>
+
+        <h3>Strategic flexibility</h3>
+        <p>This is where the program is stronger than it first appears. If the student is serious, the degree can branch into enough adjacent tracks that it is safer than a pure title-reading would suggest.</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Decision dimension</th>
+              <th>Verdict</th>
+              <th>Why</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Academic difficulty</td>
+              <td>High</td>
+              <td>Telecom-engineering core plus upper-year geospatial and systems work</td>
+            </tr>
+            <tr>
+              <td>Thai employability</td>
+              <td>Moderate to strong if student pivots well</td>
+              <td>Best routes are GIS, data, telecom, systems, and implementation roles</td>
+            </tr>
+            <tr>
+              <td>Prestige power</td>
+              <td>Moderate, not dominant</td>
+              <td>KMITL is credible, but the program is new and not the obvious prestige default</td>
+            </tr>
+            <tr>
+              <td>International access</td>
+              <td>Selective</td>
+              <td>Real routes exist, but U.S. defense-heavy aerospace is high-friction and Europe is citizenship-filtered in some tracks</td>
+            </tr>
+            <tr>
+              <td>Student-life convenience</td>
+              <td>Moderate</td>
+              <td>Lat Krabang can be practical and cheaper, but less naturally urban and central</td>
+            </tr>
+            <tr>
+              <td>Mental-load risk</td>
+              <td>Meaningful</td>
+              <td>Engineering pressure plus self-direction plus outcome ambiguity</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>2. Lat Krabang Reality: The Place You Are Actually Choosing</h2>
+        <p>Students often choose majors while imagining a vague campus life that does not match the physical place they will actually inhabit. That is a mistake. Choosing KMITL means choosing Lat Krabang.</p>
+
+        <h3>Location and atmosphere</h3>
+        <p>KMITL's own campus material places the institute at 1 Chalong Krung 1 Alley, Lat Krabang, Bangkok, and the international engineering campus guide describes the campus as approximately 30 kilometers east of the city center. That detail matters more than marketing language. The area is not a central-Bangkok academic bubble. It is shaped by the airport corridor, logistics movement, industrial activity, and commuter patterns. The campus can still be active, but the surrounding reality feels more practical than cinematic.</p>
+        <p>This leads to an important inference from the location and transport structure. A student who wants to live in the middle of city culture and casually move around downtown every day may find KMITL less convenient than they hoped. A student who is happy to operate from a more self-contained base may find the environment calmer and more financially manageable.</p>
+
+        <h3>Housing economics are one of the campus's real advantages</h3>
+        <p>Current official KMITL dormitory rates are more helpful than rumor here. The 2022 dormitory-fee announcement, still posted on the official SDG site and crawled recently, shows a wide housing spectrum. Buildings 1-2 cost 6,000 THB per room per semester for regular-semester non-air-conditioned rooms, while Buildings 9-12 cost 24,000-28,000 THB per room per semester for newer air-conditioned rooms. If shared by two or three students, the monthly per-person room cost can remain quite low even before considering utilities. That is a serious affordability advantage for students who can live simply.</p>
+        <p>Off-campus current listings around KMITL tell a similar story. Recent RentHub and PropertyHub listings near the campus show simpler apartments around 4,500-7,500 THB per month and condo-style options commonly around 7,500-15,000 THB per month. These are not universal market averages, but they are strong real-world anchors. The implication is straightforward: living near KMITL can be reasonably affordable, especially compared with central-city expectations, but lifestyle standards vary sharply depending on whether the student chooses shared dorm, modest apartment, or private condo living.</p>
+      </section>
+
+      <section>
+        <h2>3. Student Life and Mental Health: Support Exists, but So Does Pressure</h2>
+        <p>The correct mental-health question is not whether KMITL has support at all. It does. The correct question is whether the support and the student's habits are strong enough to handle the kind of pressure this degree can create.</p>
+
+        <h3>What support is visibly available</h3>
+        <p>KMITL's Office of Student Development and Alumni publicly lists student counseling as an active service. The page shows that students can book one-on-one counseling for approximately 45 minutes either onsite or online, and it names the Mind Room on the fourth floor of the Rector's Office Building as part of the support environment. This matters because it proves the institution is not pretending students simply never struggle. There is a real service point.</p>
+        <p>That said, counseling services are a safety system, not a substitute for structural fit. A student who fundamentally dislikes engineering pressure, technical ambiguity, or self-directed portfolio building will not be rescued by the mere existence of support services.</p>
+
+        <h3>What student life is likely to feel like</h3>
+        <p>The student life experience here will depend heavily on personality. For a self-contained, technically focused student, Lat Krabang can be a good environment. Housing can be manageable, campus-based life can reduce distraction, and the student can stay close to labs, classmates, and project work. For a student who needs heavy social stimulation, central-city convenience, or constant novelty to stay energized, the same environment can feel isolating or monotonous.</p>
+        <p>That said, the campus is not empty or dysfunctional. KMITL's international engineering campus pages list co-working spaces and a free campus shuttle system, and the transport guidance explicitly addresses routes toward Bangkok downtown. So the fair conclusion is not that Lat Krabang is disconnected. It is that it is practical rather than naturally glamorous.</p>
+        <p>The engineering culture also matters. In a demanding curriculum, student life often gets organized around survival systems: who shares notes, who forms lab groups, who debugs assignments together, who knows which upper-year student can explain a difficult topic. This is not glamorous, but it is one of the real engines of success. Students who build dependable peer networks usually cope better than students who try to be heroic alone.</p>
+
+        <h3>The biggest mental-health risks are cumulative, not dramatic</h3>
+        <p>The common failure mode is not one catastrophic event. It is accumulation. A student falls behind in one technical subject, loses confidence, becomes less willing to ask for help, then starts to fear competitions, internships, and job applications because the internal story has already turned negative. That spiral can happen in any engineering program, but it is especially relevant here because the degree also requires self-definition. If the student feels academically shaky and strategically confused at the same time, stress compounds fast.</p>
+        <p>The best prevention is boring and practical: keep a stable routine, do not isolate, ask older students how they survived specific courses, keep one simple portfolio thread alive so the future does not feel abstract, and use counseling early if the stress starts becoming identity-level rather than assignment-level.</p>
+      </section>
+
+      <section>
+        <h2>4. The Full Risk-Reward Balance</h2>
+        <p>By this point in the dossier, the degree's economics are clear. The question now is whether the total package is attractive enough to justify the stress and the ambiguity.</p>
+
+        <h3>The strongest argument for choosing KMITL SGE</h3>
+        <p>The degree offers a combination that is genuinely hard to replicate in one place: telecom-style engineering fundamentals, geospatial and remote-sensing identity, upper-year systems and GNSS work, and realistic pivot routes into GIS, data, telecom, systems, and cloud-adjacent roles. For a Thai student who wants technical breadth without abandoning the space and geospatial theme entirely, that is a real strength. The program is also more economically resilient than its niche title first suggests, because the safer employability engine sits in the adjacent market, not only the pure space market.</p>
+        <p>KMITL's local environment also helps in practical ways. The cost of living can be manageable, the campus has real dormitory infrastructure, the department has advanced labs and industry-supported labs, and the student can build a strong four-year technical story without needing a fully central-Bangkok lifestyle. For a disciplined student, these are advantages, not compromises.</p>
+
+        <h3>The strongest argument against choosing it</h3>
+        <p>The degree asks for too much from the wrong personality type. It asks the student to survive engineering rigor, translate a niche degree title into market language, build external proof actively, and accept that the most glamorous aerospace outcomes are not the most likely ones. That is a large burden to place on an eighteen-year-old who is unsure, prestige-driven, or weak in core technical subjects.</p>
+        <p>There is also an institutional risk. Because the program is specialized and newer, it does not have the same automatic employer recognition as older or more generic majors. That means the student has less room to be passive. A passive student in a very obvious major can sometimes drift into acceptable outcomes. A passive student here is more exposed.</p>
+
+        <h3>The hidden upside</h3>
+        <p>The hidden upside is that the degree can produce unusually interesting and flexible profiles when used well. A graduate who can talk about GNSS, spatial data, telecom systems, Python, imagery, and implementation is not easy to replace. This can become a very strong profile in Thailand's mixed market of geospatial, infrastructure, data, and solution work.</p>
+
+        <h3>The hidden downside</h3>
+        <p>The hidden downside is expectation mismatch. If the family and the student think "space" means guaranteed elite status, premium salary, or easy foreign access, disappointment will arrive quickly. The degree works best when treated as a technical platform, not as a symbolic identity choice.</p>
+      </section>
+
+      <section>
+        <h2>5. Who Should Choose It, and Who Should Avoid It</h2>
+        <p>This section is intentionally blunt because it is the most decision-useful part of the entire report.</p>
+
+        <h3>Strong fit: the student who should seriously choose KMITL SGE</h3>
+        <p>Choose this degree if the student likes quantitative work enough to survive engineering classes without constant resentment. Choose it if they are comfortable with coding, systems, or GIS tools becoming central to their career identity. Choose it if they are excited by applied problems such as mapping, sensing, positioning, communication systems, data interpretation, or satellite-enabled services, not just by rockets as an image. Choose it if they are willing to live in Lat Krabang without needing a central-city lifestyle to stay motivated. Most importantly, choose it if they can build proof proactively rather than waiting to be told what to do every semester.</p>
+
+        <h3>Weak fit: the student who should probably avoid it</h3>
+        <p>Avoid this degree if the student mainly wants a prestigious-sounding title. Avoid it if they dislike math, physics, or sustained debugging. Avoid it if they want a major that leads to an obvious Thai job label with minimal explanation. Avoid it if they are determined to work only in glamorous space hardware and would feel cheated by GIS, data, telecom, or systems work. Avoid it if they need a very socially rich, central, lifestyle-heavy university environment to feel emotionally okay. And avoid it if the family's financial or emotional margin is so thin that the student must have the most direct, low-ambiguity path possible.</p>
+
+        <h3>The borderline student</h3>
+        <p>The hardest case is the student who genuinely likes the idea of space and maps, is moderately good at math, but is not yet clearly self-directed. For that student, the decision depends on whether they are willing to grow into discipline quickly. If yes, the degree can still work. If not, a broader and more legible major may be safer.</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Signal</th>
+              <th>Go</th>
+              <th>No-Go</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Motivation</td>
+              <td>Likes systems, data, GIS, sensing, and technical problem solving</td>
+              <td>Likes only the word "space" or the prestige signal</td>
+            </tr>
+            <tr>
+              <td>Academic profile</td>
+              <td>Can realistically handle engineering math and programming</td>
+              <td>Already struggles badly with math and avoids technical work</td>
+            </tr>
+            <tr>
+              <td>Career expectations</td>
+              <td>Accepts GIS, telecom, data, and systems as real outcomes</td>
+              <td>Will only feel satisfied by immediate aerospace glamour</td>
+            </tr>
+            <tr>
+              <td>Work style</td>
+              <td>Can self-direct projects and build portfolio evidence</td>
+              <td>Needs highly structured, low-ambiguity guidance at all times</td>
+            </tr>
+            <tr>
+              <td>Lifestyle fit</td>
+              <td>Can live in Lat Krabang and make practical choices about housing and commute</td>
+              <td>Needs central-city student life to feel university is worthwhile</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>6. Final Go or No-Go Checklist</h2>
+        <p>The checklist below is not a marketing device. It is meant to force an honest answer.</p>
+
+        <h3>Go if most of these are true</h3>
+        <ul>
+          <li>The student is strong enough in math and science to survive engineering without constant panic.</li>
+          <li>The student can accept telecom, GIS, data, systems, or cloud-adjacent work as successful outcomes, not consolation prizes.</li>
+          <li>The student is willing to build a portfolio from Year 1 or Year 2 onward.</li>
+          <li>The family understands that the degree's value depends on execution, not only the title.</li>
+          <li>Lat Krabang as a living environment feels acceptable or even appealing.</li>
+          <li>The student can tolerate ambiguity and delayed payoff without losing motivation.</li>
+        </ul>
+
+        <h3>No-Go if several of these are true</h3>
+        <ul>
+          <li>The student wants a major with automatic prestige or automatic employer understanding.</li>
+          <li>The student dislikes programming, technical troubleshooting, and quantitative work.</li>
+          <li>The student will feel emotionally betrayed if the job outcome is geospatial, telecom, or data rather than pure space hardware.</li>
+          <li>The family needs a simpler, lower-risk, more legible ROI path.</li>
+          <li>The student needs a highly social, central-city campus experience to stay mentally healthy.</li>
+          <li>The student expects the university alone to create employability without self-driven projects.</li>
+        </ul>
+
+        <figure class="report-figure" id="figure-15-1">
+  <img src="visuals/visual-v27.svg" alt="Two-column decision matrix with go and no-go conditions.">
+  <figcaption>
+    <span class="report-figure__label">Figure 15.1</span>
+    <span class="report-figure__title">Go / No-Go Decision Matrix.</span>
+    The final verdict is conditional: this is a go for a portfolio-driven technical student and a no-go for someone hoping prestige or space romance will carry the decision.
+  </figcaption>
+</figure>
+      </section>
+
+      <section>
+        <h2>7. Final Verdict</h2>
+        <p>The honest final verdict is this: KMITL's Space and Geospatial Engineering degree is a good choice for the right Thai student, but not a forgiving one. It is worth it if the student is technically inclined, market-realistic, and willing to build a serious portfolio around GIS, data, systems, telecom, or satellite-enabled applications. In that scenario, the degree is more strategic than it first appears. It provides technical breadth, credible specialization, and a safer set of fallback routes than a naive reading of the title would suggest.</p>
+        <p>It is not worth it for a student who mainly wants the emotional story of space without the actual disciplines that make the story employable. The degree does not forgive passivity well. It does not automatically convert into elite aerospace outcomes. It does not erase the need for initiative. And it will not feel easy if the student is choosing it for image rather than fit.</p>
+        <p>If forced into a one-line verdict, it is this: <strong>Go, but only as a technically serious, portfolio-driven, Thai-market-aware choice. No-go as a prestige-driven choice.</strong></p>
+      </section>
+
+      <section>
+        <h2>8. Chapter Takeaway</h2>
+        <p class="takeaway">KMITL SGE is not a bad bet. It is a conditional bet. For a serious student, it can be a strong and unusually versatile engineering platform with real Thai employability and meaningful geospatial identity. For a passive or image-driven student, it is too ambiguous and too demanding. The correct decision is not based on whether the degree sounds exciting. It is based on whether the student can turn that excitement into durable technical proof.</p>
+      </section>
+
+      <section class="sources">
+        <h2>Sources</h2>
+        <p class="note">Local housing listings and service pages are time-sensitive. Links below were checked on April 12, 2026 and used as current signals rather than permanent guarantees.</p>
+        <ul>
+          <li><a href="https://www.telecom.kmitl.ac.th/space-and-geospatial-engineering/">KMITL Department of Telecommunications Engineering: Space and Geospatial Engineering</a></li>
+          <li><a href="https://sdg.kmitl.ac.th/policy/dormitory-fees/">KMITL student dormitory fees</a></li>
+          <li><a href="https://sdg.kmitl.ac.th/1720/">KMITL dormitory application announcement example</a></li>
+          <li><a href="https://osda.kmitl.ac.th/service">KMITL OSDA student services and counseling</a></li>
+          <li><a href="https://sites.google.com/kmitl.ac.th/internationalengineeringkmitl/campus-life/campus-map-of-kmitl">KMITL campus map and location context</a></li>
+          <li><a href="https://sites.google.com/kmitl.ac.th/internationalengineeringkmitl/campus-life/facilities">KMITL campus facilities and co-working spaces</a></li>
+          <li><a href="https://sites.google.com/kmitl.ac.th/internationalengineeringkmitl/campus-life/transportation">KMITL transportation guide</a></li>
+          <li><a href="https://sites.google.com/kmitl.ac.th/internationalengineeringkmitl/campus-life/transportation/within-campus">KMITL campus shuttle information</a></li>
+          <li><a href="https://propertyhub.in.th/%E0%B9%80%E0%B8%8A%E0%B9%88%E0%B8%B2%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B9%82%E0%B8%94/%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%AD%E0%B8%A1%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%97%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B1%E0%B8%87/%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%AA%E0%B8%AD%E0%B8%A2-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%99-30-%E0%B8%95%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%A1%E0%B8%95%E0%B8%A3">PropertyHub current condo listings near KMITL</a></li>
+          <li><a href="https://www.renthub.in.th/en/apartment/lat-krabang-lat-krabang">RentHub current apartment listings in Lat Krabang</a></li>
+          <li><a href="https://www.telecom.kmitl.ac.th/advanced-labs/">KMITL Department of Telecommunications Engineering: Advanced Labs</a></li>
+          <li><a href="https://www.telecom.kmitl.ac.th/labs-with-industry/">KMITL Department of Telecommunications Engineering: Labs with Industry</a></li>
+          <li><a href="https://www.narit.or.th/en/announcements/job-announcements/narit-internship-program">NARIT internship program</a></li>
+          <li><a href="https://training.gistda.or.th/">GISTDA Training Center</a></li>
+          <li><a href="https://www.spaceappschallenge.org/">NASA International Space Apps Challenge</a></li>
+          <li><a href="https://humans-in-space.jaxa.jp/en/biz-lab/news/detail/004816.html">JAXA: Kibo Robot Programming Challenge application results</a></li>
+        </ul>
+      </section>
+    </article>
+  </main>
+  <script src="report-pager.js?v=4"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap");
+
+:root {
+  --bg: #f2eee9;
+  --paper: #fffdfa;
+  --ink: #2d221c;
+  --muted: #6d5e55;
+  --line: #dfd4ca;
+  --accent: #7a4b2f;
+  --accent-soft: #f7efe8;
+  --summary-bg: #fbf6f1;
+  --table-head: #f5ece4;
+  --visual-bg: #fdf8f4;
+  --shadow: 0 18px 44px rgba(58, 39, 28, 0.1);
+
+  --font-body: "Newsreader", "Baskerville", "Times New Roman", serif;
+  --font-ui: "Manrope", "Aptos", "Segoe UI", sans-serif;
+  --font-display: "Fraunces", "Georgia", serif;
+}
+
+body {
+  font-size: 15.8px;
+  line-height: 1.7;
+}
+
+.demo-kicker,
+.summary-label {
+  letter-spacing: 0.12em;
+}
+
+h1,
+h2,
+h3 {
+  color: #3d291d;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: 2.24rem;
+  line-height: 1.08;
+}
+
+h2 {
+  font-size: 1.28rem;
+}
+
+.meta span {
+  border-radius: 7px;
+  background: #faf3ee;
+}
+
+.summary {
+  border-left: none;
+  border-top: 3px solid rgba(122, 75, 47, 0.45);
+  padding-top: 15px;
+}
+
+.takeaway {
+  border-top-width: 3px;
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="Adjacent Labor-Market Depth">
+<defs>
+  <marker id="arrow" markerWidth="14" markerHeight="14" refX="9" refY="4.5" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L9,4.5 L0,9 z" fill="#123f63"/>
+  </marker>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+    <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#173048" flood-opacity="0.08"/>
+  </filter>
+</defs>
+<style>
+  .frame { fill: #fbfdff; stroke: #d8e0e8; stroke-width: 2; }
+  .header { fill: #123f63; }
+  .headerTitle { font: 700 34px Arial, Helvetica, sans-serif; fill: #ffffff; letter-spacing: 0.2px; }
+  .headerSub { font: 18px Arial, Helvetica, sans-serif; fill: #d8e6f0; }
+  .panel { fill: #ffffff; stroke: #d8e0e8; stroke-width: 2; }
+  .panelSoft { fill: #f4f8fb; stroke: #d8e0e8; stroke-width: 2; }
+  .title { font: 700 24px Arial, Helvetica, sans-serif; fill: #123f63; }
+  .body { font: 18px Arial, Helvetica, sans-serif; fill: #5f7385; }
+  .small { font: 15px Arial, Helvetica, sans-serif; fill: #5f7385; }
+  .axis { font: 16px Arial, Helvetica, sans-serif; fill: #5f7385; }
+  .chip { font: 700 16px Arial, Helvetica, sans-serif; fill: #123f63; }
+  .label { font: 700 18px Arial, Helvetica, sans-serif; fill: #123f63; }
+  .value { font: 700 18px Arial, Helvetica, sans-serif; fill: #1f2f3d; }
+  .mutedStrong { font: 700 16px Arial, Helvetica, sans-serif; fill: #5f7385; }
+</style>
+<rect class="frame" x="1" y="1" rx="22" ry="22" width="1198" height="758"/>
+<rect class="header" x="0" y="0" width="1200" height="82"/>
+<text class="headerTitle" x="34" y="48">Adjacent Labor-Market Depth</text>
+<text class="headerSub" x="34" y="69">Specialized GIS versus broader technical markets</text><text x="300" y="158" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#5f7385" text-anchor="start">Narrower visible opening volume</text><text x="1060" y="158" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#5f7385" text-anchor="end">Broader visible opening volume</text><text x="92" y="220" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#123f63" text-anchor="start">GIS-specialized roles</text><rect x="300" y="192" width="760" height="34" rx="14" ry="14" fill="#edf2f6" stroke="#d8e0e8" stroke-width="2"/><rect x="300" y="192" width="106.4" height="34" rx="14" ry="14" fill="#b85b55" stroke="#b85b55" stroke-width="2"/><text x="422.4" y="214" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1f2f3d" text-anchor="start">14</text><text x="92" y="316" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#123f63" text-anchor="start">Telecom roles</text><rect x="300" y="288" width="760" height="34" rx="14" ry="14" fill="#edf2f6" stroke="#d8e0e8" stroke-width="2"/><rect x="300" y="288" width="592.8" height="34" rx="14" ry="14" fill="#c77b33" stroke="#c77b33" stroke-width="2"/><text x="908.8" y="310" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1f2f3d" text-anchor="start">78</text><text x="92" y="412" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#123f63" text-anchor="start">Network roles</text><rect x="300" y="384" width="760" height="34" rx="14" ry="14" fill="#edf2f6" stroke="#d8e0e8" stroke-width="2"/><rect x="300" y="384" width="638.4" height="34" rx="14" ry="14" fill="#7fa5c3" stroke="#7fa5c3" stroke-width="2"/><text x="954.4" y="406" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1f2f3d" text-anchor="start">84</text><text x="92" y="508" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#123f63" text-anchor="start">Cloud roles</text><rect x="300" y="480" width="760" height="34" rx="14" ry="14" fill="#edf2f6" stroke="#d8e0e8" stroke-width="2"/><rect x="300" y="480" width="668.8" height="34" rx="14" ry="14" fill="#6c63a7" stroke="#6c63a7" stroke-width="2"/><text x="984.8" y="502" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1f2f3d" text-anchor="start">88</text><text x="92" y="604" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#123f63" text-anchor="start">Data roles</text><rect x="300" y="576" width="760" height="34" rx="14" ry="14" fill="#edf2f6" stroke="#d8e0e8" stroke-width="2"/><rect x="300" y="576" width="699.2" height="34" rx="14" ry="14" fill="#2f7a57" stroke="#2f7a57" stroke-width="2"/><text x="1015.2" y="598" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1f2f3d" text-anchor="start">92</text><rect x="100" y="660" width="990" height="60" rx="16" ry="16" fill="#ffffff" stroke="#d8e0e8" stroke-width="2"/><text x="124" y="686" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#123f63" text-anchor="start"><tspan x="124" dy="0">Reading: the degree becomes safer when it can translate into adjacent, thicker markets rather than waiting</tspan><tspan x="124" dy="24.3">for a pure space or narrow GIS opening.</tspan></text></svg>

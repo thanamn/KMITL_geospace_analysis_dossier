@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Style Demo Index</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #edf2f6;
+      --panel: #ffffff;
+      --ink: #1d2835;
+      --muted: #5d6875;
+      --line: #d7dfe6;
+      --accent: #124a71;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, #f2f5f7, #e7edf2);
+      color: var(--ink);
+      font: 16px/1.55 "IBM Plex Sans", "Segoe UI", Arial, sans-serif;
+    }
+
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 28px 20px 40px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 2rem;
+      line-height: 1.08;
+    }
+
+    p.lead {
+      margin: 0 0 24px;
+      max-width: 70ch;
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px 18px 20px;
+      box-shadow: 0 14px 34px rgba(20, 31, 44, 0.08);
+    }
+
+    .eyebrow {
+      margin: 0 0 6px;
+      font-size: 0.74rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    .card h2 {
+      margin: 0 0 8px;
+      font-size: 1.24rem;
+      line-height: 1.14;
+    }
+
+    .card p {
+      margin: 0 0 14px;
+      color: var(--muted);
+    }
+
+    .card a {
+      display: inline-block;
+      color: var(--accent);
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.12em;
+      font-weight: 600;
+    }
+
+    @media (max-width: 960px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Report Style Demos</h1>
+    <p class="lead">Each preview uses the same Chapter 1 content and the same two-page layout. Only the typography, spacing, color system, and structural feel change.</p>
+
+    <section class="grid">
+      <article class="card">
+        <p class="eyebrow">Direction 1</p>
+        <h2>Formal Policy Brief</h2>
+        <p>Institutional, clean, and safest for a strategic dossier tone.</p>
+        <a href="demo-policy-brief.html">Open preview</a>
+      </article>
+
+      <article class="card">
+        <p class="eyebrow">Direction 2</p>
+        <h2>Premium Editorial Report</h2>
+        <p>Richer display typography and stronger personality without going soft or fluffy.</p>
+        <a href="demo-editorial-report.html">Open preview</a>
+      </article>
+
+      <article class="card">
+        <p class="eyebrow">Direction 3</p>
+        <h2>Minimal Academic Dossier</h2>
+        <p>Most restrained and closest to a polished academic or research report.</p>
+        <a href="demo-academic-dossier.html">Open preview</a>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
